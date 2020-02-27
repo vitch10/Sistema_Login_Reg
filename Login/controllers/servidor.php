@@ -4,9 +4,9 @@ session_start();
 
 
  // initializando variavél
-  //$username = "";
-  //$email    = "";
-  //
+  $username = "";
+  $email    = "";
+  $errors = array();
 
 // Conectar no banco de dados
  $db = mysqli_connect('localhost', 'root', '', 'login');
